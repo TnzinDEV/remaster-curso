@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollow Knight</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <header>
+        <section id="logotipo">
+            <img src="img/412b5b2d821cca5e03fbc0424630acdf.png">
+        </section>
+            <h1>Desbrave a Cidade Perdida De Hallownest!</h1>
+        </header>
+    <nav>
+        <ul>
+            <hr noshade="">
+            <li><a href="sobre.html">Sobre</a></li>
+            <hr noshade="">
+            <li><a href="trailer.html">Trailer</a></li>
+            <hr noshade="">
+            <li><a href="index.html">Inicio</a></li>
+            <hr noshade="">
+            <li><a href="som.html">Trilha Sonora</a></li>
+                <hr noshade="">
+                <li><a href="table.html">Preços</a></li>
+            <hr noshade="">
+            <li><a href="formulario.html">Cadastro</a></li>
+            <hr noshade="">
+        </ul>
+    </nav>
+    <h2>Entre Na Lista De Espera!</h2>
+            <h3>Fique Por Dentro Do Lançamento.</h3>
+    <main>
+        <section id="cadastre">
+            
+            <div class="campoa">
+                <label for="nome">Nome
+                </label>
+                <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Digite Seu Nome"
+                required>
+            </div>
+            <hr noshade="">
+            <div class="campoa">
+                <label for="Senha">Senha
+                </label>
+                <input
+                type="password"
+                id="senha"
+                name="senha"
+                placeholder="Digite Sua Senha"
+                required>
+            </div>
+            <hr noshade="">
+            <div class="campoa">
+                <label for="email">Email
+                </label>
+                <input 
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Digite Seu Email"
+                required>
+            </div>
+            <hr noshade="">
+            <div class="campoa">
+                <label for="telefone">Telefone (opcional)</label>
+            <input
+            type="tel"
+            id="telefone"
+            name="telefone"
+            placeholder="(21) 90000-0000"
+            pattern="\(?\d{2})?\s?\d{5,4}\d{5}\-?\d{4}"
+            required>
+            </div>
+            <hr noshade="">
+            <div class="campoa"
+                <label for="Idade">Idade</label>
+            
+            <input
+            type="number"
+            id="Idade"
+            name="Idade"
+            placeholder="14+"
+            required>
+        </div>
+        <hr noshade="">
+    
+
+                <div class="campo"></div>
+                <label for="plataforma">Plataforma Preferida!</label>
+                <select id="plataforma" name="plataforma">
+                <option value="pc">Pc</option>
+                <option value="xbox">Xbox</option>
+                <option value="ps">Ps4/Ps5</option>
+            </select>
+            <hr noshade="">
+            <fieldset class="campo">
+                <legend>Ja Jogou Algum Jogo MetroidVania antes?</legend>
+
+                <label for="metroidvania-sim">
+                    <input 
+                    type="radio" 
+                    id="metroidvania-sim"
+                    name="metroidvania"
+                    value="sim">
+                    Sim
+                </label>
+                <hr noshade="">
+                <label for="metroidvania-nao">
+                    <input 
+                    type="radio" 
+                    id="metroidvania-nao"
+                    name="metroidvania"
+                    value="nao">
+                    Nao
+                </label>
+            </fieldset>
+            <hr noshade="">
+            <fieldset class="campo">
+                <legend>Preferencias</legend>
+
+                <label for="novidades">
+                    <input 
+                    type="checkbox"
+                    id="novidades"
+                    name="novidades"
+                    value="sim"
+                    >
+                    Aceito Receber Novidades Por E-mail
+                </label>
+            </fieldset>
+            <hr noshade="">
+            <div class="campo">
+                <label for="cor-favorita">Cor Para Seu Ferrao</label>
+                <input
+                type="color"
+                id="cor"
+                name="cor"
+                value="#a2222">
+            </div>
+            <hr noshade="">
+            <div class="campo">
+                <label for="fanart">Adicione Sua Fanart Para a Comunidade! (opicional)</label>
+                <input
+                type="file"
+                name="fanart"
+                id="fanart"
+                accept="image/*">
+            </div>
+<hr noshade="">
+            <div class="campo">
+                <label for="comentario">Deixe Um Comentario Para os DEVS!</label>
+                <textarea
+                id="comentario"
+                name="comentario"
+                rows="4"
+                placeholder="Deixe Seu Recado Aqui :->">
+            </textarea>
+            </div>
+                        <button type="submit">Cadastrar
+
+            </button>
+        </section>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,266 @@
+/*
+============================================================
+DESAFIO — CSS
+============================================================
+
+Crie uma identidade visual para a página.
+
+REQUISITOS OBRIGATÓRIOS
+------------------------------------------------------------
+
+1. Defina uma cor de fundo para a página.
+
+2. Escolha uma família tipográfica.
+
+3. Defina uma aparência para os títulos.
+
+4. Personalize o cabeçalho .topo.
+
+5. Personalize a navegação .menu.
+
+6. Crie uma aparência visual para .obra.
+
+7. Faça as imagens da galeria ocuparem adequadamente
+   o espaço disponível.
+
+8. Crie espaçamento adequado entre as seções.
+
+9. Personalize os links.
+
+10. Crie um efeito :hover para os links da navegação.
+
+11. Personalize o formulário.
+
+12. Personalize o botão do formulário.
+
+13. Personalize o rodapé.
+
+REGRAS
+------------------------------------------------------------
+
+- Não é necessário reproduzir um design específico.
+- Escolha sua própria identidade visual.
+- Evite criar CSS para algo que o Bootstrap já resolve bem.
+- Evite utilizar Bootstrap apenas por utilizar.
+- Teste suas decisões visualmente.
+
+DESAFIO EXTRA
+------------------------------------------------------------
+
+Utilize pelo menos uma propriedade CSS que ainda não tenha
+sido utilizada durante as aulas.
+
+Explique em um comentário qual foi a propriedade e por que
+você decidiu utilizá-la.
+
+============================================================
+*/
+
+
+/* ==========================================================
+   CONFIGURAÇÕES GERAIS
+   ========================================================== */
+
+body {
+    /* Sua configuração */
+    background-color: rgb(197, 194, 194);
+}
+
+
+/* ==========================================================
+   CABEÇALHO
+   ========================================================== */
+
+header {
+    background-color: gray;
+    padding: 80px;
+    font-size: xx-large;
+    /* Sua configuração */
+}
+
+header p {
+    font-size: smaller;
+    color: white;
+}
+
+header h1 {
+    color: white;
+}
+/* ==========================================================
+   MENU
+   ========================================================== */
+
+nav {
+list-style-type: none;
+    /* Sua configuração */
+    
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px;
+    color: yellow;
+    background-color: rgb(73, 73, 73);
+    border: 2px solid black;
+    border-radius: 8%;
+
+    justify-content: space-between;
+    /* Sua configuração */
+}
+
+nav a:hover {
+    color: black;
+    transition: 0.8s;
+    background-color: white;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 15px rgb(254, 255, 255),
+        0 0 15px rgb(255, 255, 255),
+        0 0 15px rgb(255, 255, 255);
+    /* Sua configuração */
+}
+
+
+/* ==========================================================
+   ÁREA PRINCIPAL
+   ========================================================== */
+
+#inicio {
+    /* Sua configuração */
+}
+
+#obras h2 {
+    padding-left: 20px;
+    /* Sua configuração */
+    &:hover {
+        transition: 0.3s;
+        border-left: 15px solid gray;
+        padding-left: 60px;
+    }
+}
+
+ h2 {
+    /* Sua configuração */
+    padding-left: 20px;
+    transition: 0.3s;
+    
+    &:hover {
+        color: whitesmoke;
+        border-left: 15px solid gray;
+        padding-left: 60px;
+    }
+}
+
+.informacao {
+    /* Sua configuração */
+}
+
+#contato {
+    /* Sua configuração */
+    padding: 5px;
+}
+
+
+/* ==========================================================
+   OBRAS
+   ========================================================== */
+
+.obra {
+    
+    padding: 0.3px;
+    /* Sua configuração */
+}
+
+.obra img {
+    /* Sua configuração */
+    width: 300px;
+
+    transition: 0.3s;
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
+
+.obra h3 {
+    border-left: 5px solid yellow;
+    background-color: gray;
+    padding-left: 20px;
+    transition: 0.3s;
+    
+    &:hover {
+        border-left: 15px solid rgb(175, 175, 4);
+        padding-left: 60px;
+    }
+    /* Sua configuração */
+}
+
+
+/* ==========================================================
+   FORMULÁRIO
+   ========================================================== */
+
+form {
+    /* Sua configuração */
+}
+
+form div {
+    /* Sua configuração */
+}
+
+form label {
+    /* Sua configuração */
+}
+
+form input,
+form textarea {
+    /* Sua configuração */
+    background-color: rgb(221, 219, 219);
+}
+
+form button {
+    /* Sua configuração */
+}
+
+form button:hover {
+    /* Sua configuração */
+}
+
+
+/* ==========================================================
+   RODAPÉ
+   ========================================================== */
+
+.rodape {
+    /* Sua configuração */
+}
+
+.rodape a {
+    /* Sua configuração */
+}
+
+
+/*
+============================================================
+ESPAÇO LIVRE
+
+Se precisar criar novas regras CSS, faça isso abaixo.
+
+============================================================
+*/
+
+
+
+
+.container  {
+    
+}
+
+
+
+
+
+p {
+    color: white;
+}
+
+
+

@@ -1,0 +1,63 @@
+h3 {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5mm;
+
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    letter-spacing: 0cqb;
+
+
+
+
+}
+
+img {
+    border-radius: 200px;
+    border: 5px solid black;
+    margin: 50px;
+}
+
+section {
+    margin: 10px;
+    border: 5px solid black;
+    padding: 50px;
+}
+
+nav {
+    background-color: rgb(187, 187, 187);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: square;
+    background-color: rgb(224, 224, 224);
+    padding: 5px;
+    margin: 5px;
+}
+
+nav li {}
+
+header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(69, 69, 170);
+    border-radius: 30px;
+    border: 5px solid blueviolet;
+    padding: 10px;
+}
+cabecalio {
+
+    margin: 10px;
+}
+header h3 {
+    color: white;
+}
+header h1 {
+    color: white;
+}
+a:hover {
+    color: rgb(125, 255, 74);
+}

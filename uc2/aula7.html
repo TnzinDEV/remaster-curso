@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <header class="bg-dark">
+        <h1 class="text-light">Aula 07: Bootstrap</h1>
+        <style>
+            .bordinha {
+                border: 2px solid black;
+                
+            }
+        </style>
+    </header>
+
+    <nav class="navbar navbar-expand-md">
+        <ul>
+            <li><a href="https://getbootstrap.com/" target="_blank">Site Oficial</a></li>
+            <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="container bordinha">
+            <div class="row bordinha m-1 p-1">
+                <div id="sobre" class="col-sm-12 col-m-6 col-lg-4 text-center">
+                    <h2>O Framework</h2>
+                    <p>Bootstrap é um framework de desenvolvimento web gratuito e open-source que fornece ferramentas e
+                        componentes pré-estilizados para criar sites e aplicações web de forma rápida e eficiente.</p>
+                </div>
+                <div class="col-sm-12 col-m-6 col-lg-4">
+                    <h2>Recursos</h2>
+                    <ul>
+                        <li>Grid System: Sistema de grade para layout responsivo.</li>
+                        <li>Componentes: Botões, formulários, navegação, modais, etc.</li>
+                        <li>JavaScript: Plugins interativos como carrosséis e pop-ups.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-12 col-m-6 col-lg-4">
+                <img src="img/spider-man.jpg">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Rodapé</p>
+        <p>Este é um exemplo de rodapé formatado com Bootstrap.</p>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</html>
